@@ -20,7 +20,7 @@ section{
   background-color: blue;
   border-style: solid;
   border-color: black;  
-  width: 40%;
+  width: 30%;
   text-align: center;
   border-top: 0px;
   border-right: 0px;
@@ -58,8 +58,7 @@ h1{
     float: left;
     border-style: solid;        
     width: 31.33%;
-    margin: 1%;            
-    font-size: 0.75em;
+    margin: 1%;                
   }
 }
 
@@ -68,11 +67,11 @@ h1{
   .col-md-6 {
     background-color: grey;
     float: left;
-    border-style: solid;        
-    font-size: 22px;        
+    border-style: solid;                    
     width: 48%;
     margin: 1%;
     clear: right;
+    font-size: 0.75em;
   }
   .pescadito{
     width: 98.3%; 
@@ -83,8 +82,8 @@ h1{
   .col-sm-12 {    
     background-color: grey;
     margin: 5%;
-    border-style: solid;    
-    font-size: 24px;    
+    border-style: solid;        
     width: 90%;
+    font-size: 0.50em;
   }
 }
