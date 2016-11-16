@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+  text-align: center;
+  padding: 5%;
+}
+p{  
+  padding: 2%;  
+  background-color: grey;
+  clear: both;
+}
+.container{
+  width: 100%;    
+  position: relative;
+  float: left;
+  padding: 2%;    
+}
+.row{  
+  border-style: solid;
+  border-color: black;              
+}
+section{
+  margin: =0px;
+  float: right;
+  clear: both;
+  background-color: blue;
+  border-style: solid;
+  border-color: black;  
+  width: 30%;
+  text-align: center;
+  border-top: 0px;
+  border-right: 0px;
+}
+.Pollo{
+  background-color: #D59898;
+}
+.Carne{
+  background-color: #C14543;
+  color:#FFFFFF;
+}
+.Pescao{
+  background-color: #E5D198;
+}
+
+/********** Big devices **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    background-color: grey;
+    float: left;
+    border-style: solid;        
+    width: 31.33%;
+    margin: 1%;            
+    font-size: 18px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    background-color: grey;
+    float: left;
+    border-style: solid;        
+    font-size: 22px;        
+    width: 48%;
+    margin: 1%;
+    clear: right;
+  }
+  .pescadito{
+    width: 98.3%; 
+  }  
+}
+/********** small devices **********/
+@media (max-width: 767px) {
+  .col-sm-12 {    
+    background-color: grey;
+    margin-top: 3%;
+    border-style: solid;    
+    font-size: 24px;    
+    width: 100%;
+  }
+}
