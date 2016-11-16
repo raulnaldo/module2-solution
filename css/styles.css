@@ -80,10 +80,10 @@ h1{
 /********** small devices **********/
 @media (max-width: 767px) {
   .col-sm-12 {    
-    background-color: grey;
+    background-color: red;
     margin: 5%;
     border-style: solid;        
     width: 90%;
-    font-size: 0.35em;
+    font-size: 0.20em;
   }
 }
