@@ -1,3 +1,4 @@
+/*Version v1.0*/
 * {
   box-sizing: border-box;
 }
@@ -59,6 +60,7 @@ h1{
     border-style: solid;        
     width: 31.33%;
     margin: 1%;                
+    font-size: 1em;
   }
 }
 
@@ -69,8 +71,7 @@ h1{
     float: left;
     border-style: solid;                    
     width: 48%;
-    margin: 1%;
-    clear: right;
+    margin: 1%;    
     font-size: 0.75em;
   }
   .pescadito{
