@@ -9,7 +9,7 @@ body{
 }
 p{  
   padding: 2%;  
-  background-color: grey;
+  background-color: #808080;
   clear: both;  
 }
 section{  
@@ -54,7 +54,7 @@ h1{
 /********** Big devices **********/
 @media (min-width: 992px) {
   .col-lg-4{
-    background-color: grey;
+    background-color: #808080;
     float: left;
     border-style: solid;        
     width: 31.33%;
@@ -65,7 +65,7 @@ h1{
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    background-color: grey;
+    background-color: #808080;
     float: left;
     border-style: solid;                    
     width: 48%;
@@ -80,10 +80,10 @@ h1{
 /********** small devices **********/
 @media (max-width: 767px) {
   .col-sm-12 {    
-    background-color: red;
+    background-color: #808080;
     margin: 5%;
     border-style: solid;        
     width: 90%;
-    font-size: 0.20em;
+    font-size: 0.50em;
   }
 }
