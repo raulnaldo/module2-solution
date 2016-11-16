@@ -5,27 +5,15 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin: 0;
     padding: 0;
-}
-h1{
-  text-align: center;
-  padding: 5%;
+    font-size:20px;  
 }
 p{  
   padding: 2%;  
   background-color: grey;
-  clear: both;
+  clear: both;  
 }
-.container{
-  width: 100%;    
-  position: relative;
-  float: left;
-  padding: 2%;    
-}
-.row{  
-  border-style: solid;
-  border-color: black;              
-}
-section{
+section{  
+  font-size:1.25em;
   margin: =0px;
   float: right;
   clear: both;
@@ -37,6 +25,21 @@ section{
   border-top: 0px;
   border-right: 0px;
 }
+h1{
+  font-size:1.5em;
+  text-align: center;
+  padding: 5%; 
+}
+.container{
+  width: 100%;
+  padding: 2%;      
+  float: left;
+}
+.row{  
+  border-style: solid;
+  border-color: black;              
+}
+
 .Pollo{
   background-color: #D59898;
 }
@@ -56,7 +59,7 @@ section{
     border-style: solid;        
     width: 31.33%;
     margin: 1%;            
-    font-size: 18px;
+    font-size: 0.75em;
   }
 }
 
@@ -79,9 +82,9 @@ section{
 @media (max-width: 767px) {
   .col-sm-12 {    
     background-color: grey;
-    margin-top: 3%;
+    margin: 5%;
     border-style: solid;    
     font-size: 24px;    
-    width: 100%;
+    width: 90%;
   }
 }
